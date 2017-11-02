@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # STEP-1: Read any of the input images using cv2
-imgpath = '...\images\IMG_6726.jpg'
+imgpath = '...\images\IMG_6726.jpg' # Give your image path.
 img = cv2.imread(imgpath)
 print("Processing image: ", imgpath)
 #cv2.imshow("output image", img)
